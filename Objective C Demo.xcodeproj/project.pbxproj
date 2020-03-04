@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E0D306D240F88D400C0EB89 /* OptionViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0D306C240F88D400C0EB89 /* OptionViewController.m */; };
+		8E0D3070240FA27900C0EB89 /* CoursesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E0D306F240FA27900C0EB89 /* CoursesViewController.m */; };
+		8E780436240FBFEB00FD637D /* CourseModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E780435240FBFEB00FD637D /* CourseModel.m */; };
 		8E78F4BB240E5F7E00E9AE23 /* RainbowViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E78F4BA240E5F7E00E9AE23 /* RainbowViewController.m */; };
 		8EC24847240D0E3500F989D3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC24846240D0E3500F989D3 /* AppDelegate.m */; };
 		8EC2484A240D0E3500F989D3 /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8EC24849240D0E3500F989D3 /* SceneDelegate.m */; };
@@ -37,6 +40,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		8E0D306B240F88D400C0EB89 /* OptionViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = OptionViewController.h; sourceTree = "<group>"; };
+		8E0D306C240F88D400C0EB89 /* OptionViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = OptionViewController.m; sourceTree = "<group>"; };
+		8E0D306E240FA27900C0EB89 /* CoursesViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CoursesViewController.h; sourceTree = "<group>"; };
+		8E0D306F240FA27900C0EB89 /* CoursesViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CoursesViewController.m; sourceTree = "<group>"; };
+		8E780434240FBFEB00FD637D /* CourseModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CourseModel.h; sourceTree = "<group>"; };
+		8E780435240FBFEB00FD637D /* CourseModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CourseModel.m; sourceTree = "<group>"; };
 		8E78F4B9240E5F7E00E9AE23 /* RainbowViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RainbowViewController.h; sourceTree = "<group>"; };
 		8E78F4BA240E5F7E00E9AE23 /* RainbowViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RainbowViewController.m; sourceTree = "<group>"; };
 		8EC24842240D0E3500F989D3 /* Objective C Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Objective C Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,11 +124,17 @@
 				8EC2484C240D0E3500F989D3 /* LoginViewController.m */,
 				8E78F4B9240E5F7E00E9AE23 /* RainbowViewController.h */,
 				8E78F4BA240E5F7E00E9AE23 /* RainbowViewController.m */,
+				8E0D306B240F88D400C0EB89 /* OptionViewController.h */,
+				8E0D306C240F88D400C0EB89 /* OptionViewController.m */,
+				8E0D306E240FA27900C0EB89 /* CoursesViewController.h */,
+				8E0D306F240FA27900C0EB89 /* CoursesViewController.m */,
 				8EC2484E240D0E3500F989D3 /* Main.storyboard */,
 				8EC24851240D0E3600F989D3 /* Assets.xcassets */,
 				8EC24853240D0E3600F989D3 /* LaunchScreen.storyboard */,
 				8EC24856240D0E3600F989D3 /* Info.plist */,
 				8EC24857240D0E3600F989D3 /* main.m */,
+				8E780434240FBFEB00FD637D /* CourseModel.h */,
+				8E780435240FBFEB00FD637D /* CourseModel.m */,
 			);
 			path = "Objective C Demo";
 			sourceTree = "<group>";
@@ -273,8 +288,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				8EC2484D240D0E3500F989D3 /* LoginViewController.m in Sources */,
+				8E0D3070240FA27900C0EB89 /* CoursesViewController.m in Sources */,
+				8E780436240FBFEB00FD637D /* CourseModel.m in Sources */,
 				8EC24847240D0E3500F989D3 /* AppDelegate.m in Sources */,
 				8E78F4BB240E5F7E00E9AE23 /* RainbowViewController.m in Sources */,
+				8E0D306D240F88D400C0EB89 /* OptionViewController.m in Sources */,
 				8EC24858240D0E3600F989D3 /* main.m in Sources */,
 				8EC2484A240D0E3500F989D3 /* SceneDelegate.m in Sources */,
 			);

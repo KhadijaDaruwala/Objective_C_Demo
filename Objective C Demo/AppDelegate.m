@@ -15,17 +15,17 @@
 
 @implementation AppDelegate
 
++ (AppDelegate *)appDelegate
+{
+    return (AppDelegate *)[[UIApplication sharedApplication] delegate];
+}
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
     UIWindow *window = [[UIWindow alloc] initWithFrame:[UIScreen mainScreen].bounds];
-    window.backgroundColor = [UIColor whiteColor];
-    LoginViewController *vc = [[LoginViewController alloc] init];
-    UINavigationController *nav = [[UINavigationController alloc] initWithRootViewController:vc];
-    window.rootViewController = nav;
+    window = UIWindow.new;
     [window makeKeyAndVisible];
-    
-    
+    window.rootViewController = [[UINavigationController alloc] initWithRootViewController: LoginViewController.new];
     
     return YES;
 }
