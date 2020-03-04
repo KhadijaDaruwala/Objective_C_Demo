@@ -1,5 +1,5 @@
 //
-//  ViewController2.h
+//  RainbowViewController.h
 //  Objective C Demo
 //
 //  Created by Khadija Daruwala on 03/03/20.
@@ -10,7 +10,7 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface ViewController2 : UITableViewController
+@interface RainbowViewController : UITableViewController
 
 @end
 

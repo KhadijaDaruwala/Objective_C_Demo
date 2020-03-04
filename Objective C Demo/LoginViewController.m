@@ -1,25 +1,20 @@
 //
-//  ViewController.m
+//  LoginViewController.m
 //  Objective C Demo
 //
 //  Created by Khadija Daruwala on 02/03/20.
 //  Copyright © 2020 Khadija Daruwala. All rights reserved.
 //
 
-#import "ViewController.h"
-#import "ViewController2.h"
+#import "LoginViewController.h"
+#import "RainbowViewController.h"
 
-@interface ViewController () <UITextFieldDelegate>
-@property (weak, nonatomic) IBOutlet UILabel *labelTitle;
-@property (weak, nonatomic) IBOutlet UILabel *labelUsername;
-@property (weak, nonatomic) IBOutlet UITextField *textfieldUsername;
-@property (weak, nonatomic) IBOutlet UILabel *labelPassword;
-@property (weak, nonatomic) IBOutlet UITextField *textfieldPassword;
-@property (weak, nonatomic) IBOutlet UIButton *buttonLogin;
+@interface LoginViewController () <UITextFieldDelegate>
+
 
 @end
 
-@implementation ViewController
+@implementation LoginViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];

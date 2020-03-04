@@ -1,18 +1,18 @@
 //
-//  ViewController2.m
+//  RainbowViewController.m
 //  Objective C Demo
 //
 //  Created by Khadija Daruwala on 03/03/20.
 //  Copyright © 2020 Khadija Daruwala. All rights reserved.
 //
 
-#import "ViewController2.h"
+#import "RainbowViewController.h"
 
-@interface ViewController2 ()
+@interface RainbowViewController ()
 
 @end
 
-@implementation ViewController2
+@implementation RainbowViewController
 NSArray *myColors;
 
 - (void)viewDidLoad {
